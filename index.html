@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="shortcut icon" href="images/imc.png" type="image/x-icon">
+  <title>Calculadora IMC</title>
+</head>
+<body>
+  <form action="resultado.php" method="get">
+    <div class="card">
+      <img src="images/imc.png" alt="Logo IMC">
+      <h3>Calcule seu IMC</h3>
+      <div class="form-group">
+        <div class="text-group">
+          <input type="text" name="nome" id="inputNome" placeholder="Nome" autocomplete="off"/>
+          <input type="text" name="altura" id="inputAltura" placeholder="Altura (m)" autocomplete="off"/>
+          <input type="text" name="peso" id="inputPeso" placeholder="Peso (kg)" autocomplete="off"/>
+          
+        </div>
+        <div class="radio-group">
+          <div class="sexos">
+            <div>
+              <input type="radio" name="sexo" id="masculino" autocomplete="off"/>
+              <label for="masculino">Masculino</label>
+            </div>
+            <div>
+              <input type="radio" name="sexo" id="feminino" autocomplete="off"/>
+              <label for="feminino">Feminino</label>
+            </div>
+            <div>
+              <input type="radio" name="sexo" id="outro" autocomplete="off"/>
+              <label for="outro">Outro</label>
+            </div>
+          </div>
+        </div>
+        <input type="button" value="Calcular" id="button" onclick="validarInputs()">
+      </div>
+    </div>
+  </form>
+  <script src="js/script.js"></script>
+</body>
+</html>
