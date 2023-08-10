@@ -1,6 +1,6 @@
 # Calculadora IMC
 
-Este site foi desenvolvido para aprimorar meus conhecimentos em JavaScript, com ele, você não só pode consultar seu IMC como também saber quantos kilos você deve ganhar ou perder para atingir o peso ideal.
+Este site foi desenvolvido para aprimorar meus conhecimentos em JavaScript e PHP, com ele, você não só pode consultar seu IMC como também saber quantos kilos você deve ganhar ou perder para atingir o peso ideal.
 
 Com JavaScript, pude fazer uma interatividade com os campos da homepage, usando animações em CSS.
 
