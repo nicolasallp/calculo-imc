@@ -47,7 +47,9 @@ function validarInputs() {
     return
   }
 
-  btnSub.type = 'submit'
+  localStorage.setItem('peso', pesoIn.value);
+  localStorage.setItem('altura', alturaIn.value);
+  window.location.href = "resultado.html";
 }
 
 const error = document.createElement("p")
